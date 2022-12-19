@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Display from "./components/Display/Display";
 import Header from "./components/Header/Header";
@@ -8,6 +7,7 @@ import Homestead from "./components/Tile/Homestead";
 import LoggingCamp from "./components/Tile/LoggingCamp";
 import Tannery from "./components/Tile/Tannery";
 
+import { setContext } from "@apollo/client/link/context";
 import React, { useState } from "react";
 import Login from "./pages/Login";
 import Game from "./pages/Game"
