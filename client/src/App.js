@@ -44,7 +44,7 @@ function App() {
         <>
           <Routes>
             <Route path="/" element={<Game />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/Login" element={<Login />} />
             <Route
               path="*"
               element={<h1 className="display-2">Wrong page!</h1>}
