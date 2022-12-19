@@ -7,7 +7,7 @@ import Homestead from "./components/Tile/Homestead";
 import LoggingCamp from "./components/Tile/LoggingCamp";
 import Tannery from "./components/Tile/Tannery";
 import React, { useState } from "react";
-import Login from "../components/login/login.js";
+import Login from "../Preferences/Login/login.js";
 
 
 import {
