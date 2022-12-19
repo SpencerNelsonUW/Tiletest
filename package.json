@@ -29,12 +29,7 @@
     "eject": "react-scripts eject",
     "install": "cd server && npm i && cd ../client && npm i"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
