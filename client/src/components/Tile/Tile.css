@@ -1,0 +1,150 @@
+.tile {
+  width: 10vw;
+  height: 10vw;
+  border: 1px solid black;
+  margin: 2vh 0;
+  background-color: #ccd5ae;
+  text-align: center;
+  font-size: 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.era{
+  width: 10vw;
+  height: 10vw;
+  border: 1px solid black;
+  margin: 2vh 0;
+  background-color: #95ab4b;
+  text-align: center;
+  font-size: 6px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.era h1{
+  margin-left: .5vw;
+  margin-top: 1vw;
+  font-weight: 900;
+  font-size: 25px;
+  z-index: 100;
+}
+
+.tile .title{
+  display: flex;
+  margin: 0 auto;
+}
+ 
+
+.tile button{
+  height: 2vw;
+  font-size: 0.6rem;  
+  padding: 0;
+}
+
+.tile div.button-container{
+  display: flex;
+}
+
+.tile button.buy, .tile button.collect{
+  width: 50%;
+}
+ 
+.icon {
+  font-size: 4rem;
+}
+
+.tile.locked {
+  background-color: darkgrey;
+  justify-content: space-evenly;
+}
+
+ 
+
+@media screen and (max-width: 1300px) {
+  .tile, .era{
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+}
+ 
+@media screen and (max-width: 900px) {
+  .tile, .era{
+    width: 17vw;
+    height: 17vw;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tile, .era{
+    width: 25vw;
+    height: 25vw;
+    margin: 2%;
+  }
+  .tile .button-container{
+    flex-direction: column;
+  }
+  .tile button.buy, .tile button.collect{
+    width: 80%;
+    margin: 5px auto;
+  }
+  .icon{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tile button{
+    height: 2.5vw;
+  }
+  .tile button.buy, .tile button.collect{
+    width: 80%;
+    margin: 2px auto;
+  }
+  .icon{
+    font-size: 2rem;
+  }
+  .era h1{
+    font-size: 1.3rem;
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+  .tile, .era {
+     width: 50vw;
+     height: 50vw;
+  }
+
+  .icon{
+    font-size: 3rem;
+  }
+
+  .era h1{
+    font-size: 2rem;
+  }
+
+  .tile .title{
+    font-size: .7rem;
+  }
+
+  .tile button{
+    height: 5vw;
+  }
+
+}
+ 
+ 
+

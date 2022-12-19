@@ -1,0 +1,16 @@
+.Display {
+  width: 100%;
+  background-color: #faedcd;
+  margin: 0 auto;
+}
+
+.grid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .Display{
+     margin: 5vw 0;
+  } 
+}
