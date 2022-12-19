@@ -9,7 +9,7 @@ import Tannery from "./components/Tile/Tannery";
 
 import { setContext } from "@apollo/client/link/context";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 import Login from "./pages/Login";
 import Game from "./pages/Game"
 
