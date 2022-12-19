@@ -10,7 +10,7 @@ import Tannery from "./components/Tile/Tannery";
 
 import React, { useState } from "react";
 import Login from "./pages/Login";
-import Game from "./pages.Game"
+import Game from "./pages/Game"
 
 import {
   ApolloClient,

@@ -22,7 +22,7 @@ import {
   faChessRook, // Medieval
 } from "@fortawesome/free-solid-svg-icons";
 
-function App() {
+function Game() {
   
   const [token, setToken] = useState();
   // error for reassigning const var
