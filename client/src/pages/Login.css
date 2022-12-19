@@ -1,0 +1,28 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    margin: 5vw;
+}
+
+form{
+    border: 1px solid #D4A373;
+    margin: 0 auto;
+    padding: 1vw 10vw;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Login button{
+    /* border: 1px solid darkgrey; */
+    background-color:  #D4A373;
+    margin: 2vw;
+}
+ 
