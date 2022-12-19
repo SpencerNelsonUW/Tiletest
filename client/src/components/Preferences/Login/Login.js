@@ -6,7 +6,7 @@ async function loginUser(credentials) {
 
   setLocalStorage(credentials)
   // api server running on 3001/holds test token : "test123"
-    return fetch("http://localhost:3000", {
+    return fetch("http://localhost:3000login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

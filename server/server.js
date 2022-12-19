@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
-app.use((req, res) => {
+app.use("login", (req, res) => {
   res.send({
     token: "test123",
   });
